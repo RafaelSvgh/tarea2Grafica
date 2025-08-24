@@ -13,7 +13,7 @@ public static class Utils
     {
         if (vertices.Count != 8)
         {
-            throw new ArgumentException("Se requieren exactamente 8 vértices para crear un bloque 3D.");
+            throw new ArgumentException("Se requieren exactamente 8 vértices.");
         }
 
         var caras = new List<Cara>
