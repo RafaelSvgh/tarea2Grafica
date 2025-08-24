@@ -12,7 +12,7 @@ public class Cara
 {
     public List<Vertice> Vertices { get; set; }
     public Color4 Color { get; set; } = Color4.White;
-
+     
     public Cara()
     {
         Vertices = new List<Vertice>();
